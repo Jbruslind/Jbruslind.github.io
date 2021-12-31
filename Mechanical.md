@@ -9,7 +9,13 @@ The Mechanical system was designed with modularity and easy assembly in mind. In
 
 ## X Carriage Subassembly
 
-![placeholder](http://placehold.it/800x400 "Large example image")
+![Carriage Subassembly](https://raw.githubusercontent.com/Jbruslind/Jbruslind.github.io/main/assets/Mechanical_assets/Carriage_Assembly.png "Carriage Subassembly")
+
+The X Carriage Subassembly is the main motion platform for the HyperRail system. The assembly should allow for smooth motion along the lower 4060 T-slot track while also allowing the motor mechanism to interface to the belt track. 
+
+The carriage assembly borrows ideas from the [Bell-Everman](https://www.bell-everman.com/products/linear-positioning/servobelt-linear-sbl) servo setup in which a static belt is used on the tracks and interfaces to a dynamic belt driven by a motor / pulley. 
+
+![Bell-Everman Servo](https://raw.githubusercontent.com/Jbruslind/Jbruslind.github.io/main/assets/Mechanical_assets/Carriage_Assembly.png "Bell Everman Servo")
 
 ## Top Frame Subassembly
 
