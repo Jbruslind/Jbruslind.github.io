@@ -15,7 +15,11 @@ The X Carriage Subassembly is the main motion platform for the HyperRail system.
 
 The carriage assembly borrows ideas from the [Bell-Everman](https://www.bell-everman.com/products/linear-positioning/servobelt-linear-sbl) servo setup in which a static belt is used on the tracks and interfaces to a dynamic belt driven by a motor / pulley. 
 
-![Bell-Everman Servo](https://raw.githubusercontent.com/Jbruslind/Jbruslind.github.io/main/assets/Mechanical_assets/Carriage_Assembly.png "Bell Everman Servo")
+![Bell-Everman Servo](https://raw.githubusercontent.com/Jbruslind/Jbruslind.github.io/main/assets/Mechanical_assets/BellEverMan.jpg "Bell Everman Servo")
+
+The main advantage to this style of mechanism is the ability to easily extend the track length to various sizes without needing to purchase specially made belts/tracks. This allows the overall system to maintain "modularity" with the x-direction, which is aimed to be the longer of the axes (x length >> y, z) 
+
+## X Rail Assembly
 
 ## Top Frame Subassembly
 
