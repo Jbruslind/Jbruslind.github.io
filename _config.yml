@@ -10,7 +10,7 @@ permalink:        pretty
 # Setup
 title:            HyperRail
 tagline:          'Automated Greenhouse Analysis'
-description:      'An automated gantry system to preform hyperspectral imaging of growth areas'
+description:      'An automated gantry system to preform hyperspectral imaging of greenhouse / growing areas'
 url:              http://hyde.getpoole.com
 baseurl:          /
 

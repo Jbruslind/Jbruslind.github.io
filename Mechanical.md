@@ -17,7 +17,7 @@ The carriage assembly borrows ideas from the [Bell-Everman](https://www.bell-eve
 
 ![Bell-Everman Servo](https://raw.githubusercontent.com/Jbruslind/Jbruslind.github.io/main/assets/Mechanical_assets/BellEverMan.jpg "Bell Everman Servo")
 
-The main advantage to this style of mechanism is the ability to easily extend the track length to various sizes without needing to purchase specially made belts/tracks. This allows the overall system to maintain "modularity" with the x-direction, which is aimed to be the longer of the axes (x length >> y, z) 
+The main advantage to this style of mechanism is the ability to easily extend the track length to various sizes without needing to purchase specially made belts/tracks. This allows the overall system to maintain "modularity" with the x-direction, which is aimed to be the longer of the axes (x length >> y, z). If the user wants to add more length, they can easily attach another section of track (4060 with static belt attachment) to the original axis and align the track pieces together so the dynamic belt is able to mesh smoothly. 
 
 ## X Rail Assembly
 
