@@ -3,6 +3,10 @@ gems:
   - jekyll-paginate
   - jekyll-gist
   - redcarpet
+  
+  # SITE CONFIGURATION
+baseurl: ""
+url: "https://jbruslind.github.io"
 
 # Dependencies
 markdown:         kramdown
