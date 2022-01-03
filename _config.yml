@@ -4,8 +4,8 @@ gems:
   - jekyll-gist
   - redcarpet
   
-  # SITE CONFIGURATION
-baseurl: "https://jbruslind.github.io"
+# SITE CONFIGURATION
+baseurl: "/"
 url: "https://jbruslind.github.io"
 
 # Dependencies
