@@ -5,7 +5,7 @@ gems:
   - redcarpet
   
   # SITE CONFIGURATION
-baseurl: ""
+baseurl: "https://jbruslind.github.io"
 url: "https://jbruslind.github.io"
 
 # Dependencies
