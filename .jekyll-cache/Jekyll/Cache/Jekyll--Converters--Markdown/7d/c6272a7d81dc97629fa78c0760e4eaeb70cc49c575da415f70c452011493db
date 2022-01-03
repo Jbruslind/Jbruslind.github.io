@@ -1,4 +1,4 @@
-I"d%<p><img src="gist" alt="" />—
+I"�'<p><img src="gist" alt="" />—
 layout: post
 title: Example content
 —</p>
@@ -18,13 +18,13 @@ title: Example content
 <p>HTML defines a long list of available inline tags, a complete list of which can be found on the <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element">Mozilla Developer Network</a>.</p>
 
 <ul>
-  <li><strong>To bold text</strong>, use <code>&lt;strong&gt;</code>.</li>
-  <li><em>To italicize text</em>, use <code>&lt;em&gt;</code>.</li>
-  <li><mark>To highlight</mark>, use <code>&lt;mark&gt;</code>.</li>
-  <li>Abbreviations, like <abbr title="HyperText Markup Langage">HTML</abbr> should use <code>&lt;abbr&gt;</code>, with an optional <code>title</code> attribute for the full phrase.</li>
-  <li>Citations, like <cite>— Mark Otto</cite>, should use <code>&lt;cite&gt;</code>.</li>
-  <li><del>Deleted</del> text should use <code>&lt;del&gt;</code> and <ins>inserted</ins> text should use <code>&lt;ins&gt;</code>.</li>
-  <li>Superscript <sup>text</sup> uses <code>&lt;sup&gt;</code> and subscript <sub>text</sub> uses <code>&lt;sub&gt;</code>.</li>
+  <li><strong>To bold text</strong>, use <code class="language-plaintext highlighter-rouge">&lt;strong&gt;</code>.</li>
+  <li><em>To italicize text</em>, use <code class="language-plaintext highlighter-rouge">&lt;em&gt;</code>.</li>
+  <li><mark>To highlight</mark>, use <code class="language-plaintext highlighter-rouge">&lt;mark&gt;</code>.</li>
+  <li>Abbreviations, like <abbr title="HyperText Markup Langage">HTML</abbr> should use <code class="language-plaintext highlighter-rouge">&lt;abbr&gt;</code>, with an optional <code class="language-plaintext highlighter-rouge">title</code> attribute for the full phrase.</li>
+  <li>Citations, like <cite>— Mark Otto</cite>, should use <code class="language-plaintext highlighter-rouge">&lt;cite&gt;</code>.</li>
+  <li><del>Deleted</del> text should use <code class="language-plaintext highlighter-rouge">&lt;del&gt;</code> and <ins>inserted</ins> text should use <code class="language-plaintext highlighter-rouge">&lt;ins&gt;</code>.</li>
+  <li>Superscript <sup>text</sup> uses <code class="language-plaintext highlighter-rouge">&lt;sup&gt;</code> and subscript <sub>text</sub> uses <code class="language-plaintext highlighter-rouge">&lt;sub&gt;</code>.</li>
 </ul>
 
 <p>Most of these elements are styled by browsers with few modifications on our part.</p>
@@ -35,7 +35,7 @@ title: Example content
 
 <figure class="highlight"><pre><code class="language-text" data-lang="text">Clicking this number[^fn-sample_footnote]</code></pre></figure>
 
-<p>Each footnote needs the <code>^fn-</code> prefix and a unique ID to be referenced for the footnoted content. The syntax for that list looks something like this:</p>
+<p>Each footnote needs the <code class="language-plaintext highlighter-rouge">^fn-</code> prefix and a unique ID to be referenced for the footnoted content. The syntax for that list looks something like this:</p>
 
 <figure class="highlight"><pre><code class="language-text" data-lang="text">[^fn-sample_footnote]: Handy! Now click the return link to go back.</code></pre></figure>
 
@@ -47,7 +47,7 @@ title: Example content
 
 <h3 id="code">Code</h3>
 
-<p>Inline code is available with the <code>&lt;code&gt;</code> element. Snippets of multiple lines of code are supported through Rouge. Longer lines will automatically scroll horizontally when needed. You may also use code fencing (triple backticks) for rendering code.</p>
+<p>Inline code is available with the <code class="language-plaintext highlighter-rouge">&lt;code&gt;</code> element. Snippets of multiple lines of code are supported through Rouge. Longer lines will automatically scroll horizontally when needed. You may also use code fencing (triple backticks) for rendering code.</p>
 
 <figure class="highlight"><pre><code class="language-js" data-lang="js"><span class="c1">// Example can be run directly in your JavaScript console</span>
 
@@ -58,7 +58,7 @@ title: Example content
 <span class="nx">adder</span><span class="p">(</span><span class="mi">2</span><span class="p">,</span> <span class="mi">6</span><span class="p">);</span>
 <span class="c1">// &gt; 8</span></code></pre></figure>
 
-<p>You may also optionally show code snippets with line numbers. Add <code>linenos</code> to the Rouge tags.</p>
+<p>You may also optionally show code snippets with line numbers. Add <code class="language-plaintext highlighter-rouge">linenos</code> to the Rouge tags.</p>
 
 <figure class="highlight"><pre><code class="language-js" data-lang="js"><table class="rouge-table"><tbody><tr><td class="gutter gl"><pre class="lineno">1
 2

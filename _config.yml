@@ -1,7 +1,13 @@
+# Gems
+gems:
+  - jekyll-paginate
+  - jekyll-gist
+  - redcarpet
+
 # Dependencies
 markdown:         kramdown
-highlighter:      pygments
-plugins:          [jekyll-paginate]
+highlighter:      rouge
+plugins:          [jekyll-paginate, jekyll-gist]
 
 # Permalinks
 permalink:        pretty
