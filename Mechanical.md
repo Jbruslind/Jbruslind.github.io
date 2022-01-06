@@ -25,8 +25,17 @@ One of the big advantages to this style of mechanism is the ability to easily ex
 
 ![X Rail](https://raw.githubusercontent.com/Jbruslind/Jbruslind.github.io/main/assets/Mechanical_assets/Side_Rail_Assembly.png)
 
-The X Rail Assembly utilizes the carriage shown above and implements it onto a track along with a vertical 4040 T-slot beam. The assembly cantilevers the weight of the upper track length (mounted to the vertical beam) with the motor + planetary gearbox assembly so that the mass is relatively distributed along the base. The assembly is supported by a foot assembly which can be distributed and adjusted as needed based on the environment.
+The X Rail Assembly utilizes the carriage shown above combined with a track and vertical 4040 T-slot beam. The track itself is made of 4060 aluminum which was chosen for symmetry and stability (increased mass provides a good counterweight). In order for the mechanism to be stable, the carriage base needs to equally distribute mass where the most mass comes from the vertical beam + upper axis and the motor + planetary gearbox. Therefore the X Rail Assembly cantilevers the 2 largest masses against each other so the center of gravity is relatively centered within the X carriage.
 
+![Side Profile X Rail](https://raw.githubusercontent.com/Jbruslind/Jbruslind.github.io/main/assets/Mechanical_assets/Side_Rail_Side_Assembly.png)
+
+The assembly is supported by a foot assembly which can be added and distributed as necessary to support the system in different environments. 
+
+![Bottom Foot](https://raw.githubusercontent.com/Jbruslind/Jbruslind.github.io/main/assets/Mechanical_assets/BottomFoot.png)
+
+These feet allow for small height adjustments on either side through an M6 bolt embedded in the design.
+
+The pulley attached to the motor can be adjusted using the right angle brackets and can be used to provide tension to the belt system (height adjustment shown below). The whole mechanism can then be moved using the dynamic belt rolling along the static belt 
 ![X Rail Movement](https://raw.githubusercontent.com/Jbruslind/Jbruslind.github.io/main/assets/Mechanical_assets/MotorAdjust_Movement.gif)
 
 ## Top Frame Subassembly
