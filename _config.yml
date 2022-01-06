@@ -6,7 +6,6 @@ gems:
   
 # SITE CONFIGURATION
 baseurl: "/"
-url: "https://jbruslind.github.io"
 
 # Dependencies
 markdown:         kramdown
@@ -21,7 +20,7 @@ permalink:        pretty
 title:            HyperRail
 tagline:          'Automated Greenhouse Analysis'
 description:      'An automated gantry system to perform hyperspectral imaging of greenhouse / growing areas'
-url:              http://hyde.getpoole.com
+url:              https://jbruslind.github.io
 baseurl:          /
 
 author:

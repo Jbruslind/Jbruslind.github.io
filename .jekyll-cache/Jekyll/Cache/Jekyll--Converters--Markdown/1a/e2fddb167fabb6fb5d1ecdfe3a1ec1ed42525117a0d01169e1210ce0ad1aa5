@@ -1,0 +1,57 @@
+I"�<h2 id="overview">Overview</h2>
+
+<p>The Mechanical system was designed with modularity and easy assembly in mind. In the future, the system may be deployed in different areas/environment and may require an increase or decrease in dimensions.  In addition, the system will be used by users with little to no prior knowledge of how it was designed or any institutional knowledge of how it was originally assembled. With these aspects in mind, the mechanical system was created with defined “sub-assemblies” in mind so that each sub-assembly is easy to understand and assemble and can integrated into the full system seamlessly. This also allows for the option to upgrade specific sub-assemblies as needed if new ideas or designs are discovered (so long as the base needs are met).</p>
+
+<p><img src="https://raw.githubusercontent.com/Jbruslind/Jbruslind.github.io/main/assets/Mechanical_assets/FullSystem.png" alt="Full System" title="Full System" /></p>
+
+<h2 id="x-carriage-subassembly">X Carriage Subassembly</h2>
+
+<p><img src="https://raw.githubusercontent.com/Jbruslind/Jbruslind.github.io/main/assets/Mechanical_assets/Carriage_Assembly.png" alt="Carriage Subassembly" title="Carriage Subassembly" /></p>
+
+<p>The X Carriage Subassembly is the main motion platform for the HyperRail system. The assembly should allow for smooth motion along the lower 4060 T-slot track while also allowing the motor mechanism to interface to the belt track.</p>
+
+<p>The carriage assembly borrows ideas from the <a href="https://www.bell-everman.com/products/linear-positioning/servobelt-linear-sbl">Bell-Everman</a><sup id="fnref:1" role="doc-noteref"><a href="#fn:1" class="footnote" rel="footnote">1</a></sup> servo setup in which a static belt is used on the tracks and interfaces to a dynamic belt driven by a motor / pulley. A rack and pinion system would also work the same way (with more durability) however the realative costs were prohibitive for a system on this scale. For reference, the average cost per meter for the rack on a rack and pinion is ~$70/m whereas for this style, the belts are only ~$15/m. The projected user needs are for the system to extend up to 90ft or 30m making the rack and pinion very expensive.</p>
+
+<p><img src="https://raw.githubusercontent.com/Jbruslind/Jbruslind.github.io/main/assets/Mechanical_assets/BellEverMan.jpg" alt="Bell-Everman Servo" title="Bell Everman Servo" /> <img src="https://raw.githubusercontent.com/Jbruslind/Jbruslind.github.io/main/assets/Mechanical_assets/compareBellServo.png" alt="Side Profile X Rail" /></p>
+
+<p>One of the big advantages to this style of mechanism is the ability to easily extend the track length to various sizes without needing to purchase specially made belts/tracks. This allows the overall system to maintain “modularity” with the x-direction, which is aimed to be the longer of the axes (x length » y, z). If the user wants to add more length, they can easily attach another section of track (4060 with static belt attachment) to the original axis and align the track pieces together so the dynamic belt is able to mesh smoothly (see the Add-On module section).</p>
+
+<h2 id="x-rail-assembly">X Rail Assembly</h2>
+
+<p><img src="https://raw.githubusercontent.com/Jbruslind/Jbruslind.github.io/main/assets/Mechanical_assets/Side_Rail_Assembly.png" alt="X Rail" /> <img src="https://raw.githubusercontent.com/Jbruslind/Jbruslind.github.io/main/assets/Mechanical_assets/Side_Rail_Side_Assembly.png" alt="Side Profile X Rail" /></p>
+
+<p>The X Rail Assembly utilizes the carriage shown above combined with a track and vertical 4040 T-slot beam. The track itself is made of 4060 aluminum which was chosen for symmetry and stability (increased mass provides a good counterweight). In order for the mechanism to be stable, the carriage base needs to equally distribute mass where the most mass comes from the vertical beam + upper axis and the motor + planetary gearbox. Therefore the X Rail Assembly cantilevers the 2 largest masses against each other so the center of gravity is relatively centered within the X carriage.</p>
+
+<p>The assembly is supported by a foot subassembly which can be added and distributed as necessary to support the system in different environments.</p>
+
+<p><img src="https://raw.githubusercontent.com/Jbruslind/Jbruslind.github.io/main/assets/Mechanical_assets/BottomFoot.png" alt="Bottom Foot" /></p>
+
+<p>These feet allow for small height adjustments on either side through an M6 bolt embedded in the design which can be useful for outdoor use on rocky / dirt environments.</p>
+
+<p>The pulley attached to the motor can be adjusted using the right angle brackets and can be used to provide tension to the belt system (height adjustment shown below). The whole mechanism can then be moved using the dynamic belt rolling along the static belt 
+<img src="https://raw.githubusercontent.com/Jbruslind/Jbruslind.github.io/main/assets/Mechanical_assets/MotorAdjust_Movement.gif" alt="X Rail Movement" /></p>
+
+<p>The static belt layer is comprised of HTD 5mm, 25mm width polyurethane belt with steel cord reinforcement from <a href="https://shop.polybelt.com/20-5M-Open-End-Belt-Roll-Polyurethane-with-Steel-Cords-B20-5M-MPS.htm">PolyBelt</a>. Polyurethane was chosen for its durability and resistances to outdoor environments and steel cord was chosen for its price point. Kevlar reinforcement was another option which had a better tensile modulus (lower stretching over time) however this was determined to not be a huge factor since the static belt wouldn’t have large segments stretching at the same time (the stress is localized to each individual point). At the same time, Kevlar has larger thermal fluctuations <sup id="fnref:2" role="doc-noteref"><a href="#fn:2" class="footnote" rel="footnote">2</a></sup> which could cause problems during outdoor use in freezing / extremely hot temperatures.</p>
+
+<p>This profile is standard across many suppliers but PolyBelt was chosen for their price point and US location. In addition they had a matching closed belt profile which was the right size (6mm) and length (635mm) for the dynamic belt system.</p>
+
+<h2 id="top-frame-subassembly">Top Frame Subassembly</h2>
+
+<h2 id="y-carriage-subassembly">Y Carriage Subassembly</h2>
+
+<h2 id="ebox-subassembly">Ebox Subassembly</h2>
+
+<h2 id="main-system">Main System</h2>
+
+<h2 id="references">References</h2>
+<div class="footnotes" role="doc-endnotes">
+  <ol>
+    <li id="fn:1" role="doc-endnote">
+      <p>Bell-Everman, Inc. (2016, October 19). New ServoBelt™ LoopTrack Linear Stage. Retrieved from https://www.bell-everman.com/products/linear-positioning/servobelt-linear-sbl <a href="#fnref:1" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+    <li id="fn:2" role="doc-endnote">
+      <p>When to consider Kevlar reinforced belts for linear motion applications. (2019, July 05). Retrieved from https://www.linearmotiontips.com/when-to-consider-kevlar-reinforced-belts-for-linear-motion-applications <a href="#fnref:2" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+  </ol>
+</div>
+:ET

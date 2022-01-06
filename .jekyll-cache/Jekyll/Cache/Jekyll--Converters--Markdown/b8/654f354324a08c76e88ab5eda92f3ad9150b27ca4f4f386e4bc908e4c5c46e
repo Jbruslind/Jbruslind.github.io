@@ -1,6 +1,5 @@
-I"r<p class="message">
-  Hey there! This page is included as an example. Feel free to customize it for your own use upon downloading. Carry on!
-</p>
+I"�	<h1 id="p-classmessage">&lt;p class="message"&gt;</h1>
+<h1 id="p">&lt;/p&gt;</h1>
 
 <h2 id="history">History</h2>
 
@@ -47,5 +46,7 @@
 
 <p>The simplest approach to reliable, automated data collection over a wide area is a 3D Gantry or CNC machine. These systems have been around since the 1950s and the technology is well developed. While not normally used in outdoor applications, there are existing examples of CNC machines used outdoors such as: <a href="https://farm.bot/">FarmBot</a>  , <a href="https://www.mudbots.com/concrete-3d-printers.php">MudBot</a>, and the <a href="https://www.lemnatec.com/customized-solutions/field-scanalyzer/">Scanalyzer</a>.</p>
 
-<p>The Scanalyzer system in particular matches all the requirements for the HyperRail in that it can perform automated hyperspectral imaging of wide areas of land. However it exceeds the area requirement and costs much more than the price requirement.</p>
+<p>The Scanalyzer system in particular matches all the requirements for the HyperRail in that it can perform automated hyperspectral imaging of wide areas of land. However it exceeds the area requirement and costs much more than the price requirement (~10’s to 100s of thousands).</p>
+
+<p>For this implementation the FarmBot was used as a model for design. It’s modular design and open source hardware made it a great starting point for ideas and development. A key drawback to the FarmBot design is that it doesn’t extend to the dimensions required (20’ x 90’ x 5’) and so its structure is untested at these limits.</p>
 :ET

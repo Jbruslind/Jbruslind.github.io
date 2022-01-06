@@ -17,17 +17,16 @@ The X Carriage Subassembly is the main motion platform for the HyperRail system.
 
 The carriage assembly borrows ideas from the [Bell-Everman](https://www.bell-everman.com/products/linear-positioning/servobelt-linear-sbl)[^1] servo setup in which a static belt is used on the tracks and interfaces to a dynamic belt driven by a motor / pulley. A rack and pinion system would also work the same way (with more durability) however the realative costs were prohibitive for a system on this scale. For reference, the average cost per meter for the rack on a rack and pinion is ~$70/m whereas for this style, the belts are only ~$15/m. The projected user needs are for the system to extend up to 90ft or 30m making the rack and pinion very expensive. 
 
-![Bell-Everman Servo](https://raw.githubusercontent.com/Jbruslind/Jbruslind.github.io/main/assets/Mechanical_assets/BellEverMan.jpg "Bell Everman Servo")
+![Bell-Everman Servo](https://raw.githubusercontent.com/Jbruslind/Jbruslind.github.io/main/assets/Mechanical_assets/BellEverMan.jpg "Bell Everman Servo") ![Side Profile X Rail](https://raw.githubusercontent.com/Jbruslind/Jbruslind.github.io/main/assets/Mechanical_assets/compareBellServo.png)
 
 One of the big advantages to this style of mechanism is the ability to easily extend the track length to various sizes without needing to purchase specially made belts/tracks. This allows the overall system to maintain "modularity" with the x-direction, which is aimed to be the longer of the axes (x length >> y, z). If the user wants to add more length, they can easily attach another section of track (4060 with static belt attachment) to the original axis and align the track pieces together so the dynamic belt is able to mesh smoothly (see the Add-On module section). 
 
 ## X Rail Assembly
 
-![X Rail](https://raw.githubusercontent.com/Jbruslind/Jbruslind.github.io/main/assets/Mechanical_assets/Side_Rail_Assembly.png)
+![X Rail](https://raw.githubusercontent.com/Jbruslind/Jbruslind.github.io/main/assets/Mechanical_assets/Side_Rail_Assembly.png) ![Side Profile X Rail](https://raw.githubusercontent.com/Jbruslind/Jbruslind.github.io/main/assets/Mechanical_assets/Side_Rail_Side_Assembly.png)
 
 The X Rail Assembly utilizes the carriage shown above combined with a track and vertical 4040 T-slot beam. The track itself is made of 4060 aluminum which was chosen for symmetry and stability (increased mass provides a good counterweight). In order for the mechanism to be stable, the carriage base needs to equally distribute mass where the most mass comes from the vertical beam + upper axis and the motor + planetary gearbox. Therefore the X Rail Assembly cantilevers the 2 largest masses against each other so the center of gravity is relatively centered within the X carriage.
 
-![Side Profile X Rail](https://raw.githubusercontent.com/Jbruslind/Jbruslind.github.io/main/assets/Mechanical_assets/Side_Rail_Side_Assembly.png)
 
 The assembly is supported by a foot subassembly which can be added and distributed as necessary to support the system in different environments. 
 

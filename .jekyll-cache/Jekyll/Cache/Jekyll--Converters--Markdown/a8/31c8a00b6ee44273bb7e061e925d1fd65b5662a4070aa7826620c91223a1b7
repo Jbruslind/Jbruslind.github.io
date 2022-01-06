@@ -1,0 +1,17 @@
+I"@<h2 id="overview">Overview</h2>
+
+<h2 id="motor-nodes">Motor Nodes</h2>
+
+<p><img src="https://raw.githubusercontent.com/Jbruslind/Jbruslind.github.io/main/assets/Electrical_assets/IntegratedStepDriver.png" alt="Motor Node" /></p>
+
+<h2 id="esp-32-controller">ESP-32 Controller</h2>
+
+<p>The ESP-32 Controller was designed to be the liaison between motion requests by the ROS software and the rest of the machine. The board itself is computationally powered with an ESP32-WROOM module (either through a daughter dev-board or embedded on the board) running the <a href="https://github.com/bdring/Grbl_Esp32">GRBL_esp32</a> firmware. A key aspect of using the GRBL style firmware over other flavors (such as Marlin or otherwise) is that GRBL supports the ESP32 with no perquisites and can support a Web-UI natively for manual control.</p>
+
+<p><img src="https://raw.githubusercontent.com/Jbruslind/Jbruslind.github.io/main/assets/Electrical_assets/ESP32GRBLController.png" alt="GRBL Controller" /></p>
+
+<h2 id="magnetic-end-stops">Magnetic End Stops</h2>
+
+<h2 id="main-system">Main System</h2>
+
+:ET
