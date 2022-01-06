@@ -52,4 +52,4 @@ The HyperRail project began in [xxxx] as a way to simplify data collection withi
 
 The simplest approach to reliable, automated data collection over a wide area is a 3D Gantry or CNC machine. These systems have been around since the 1950s and the technology is well developed. While not normally used in outdoor applications, there are existing examples of CNC machines used outdoors such as: [FarmBot](https://farm.bot/)  , [MudBot](https://www.mudbots.com/concrete-3d-printers.php), and the [Scanalyzer](https://www.lemnatec.com/customized-solutions/field-scanalyzer/). 
 
-The Scanalyzer system in particular matches all the requirements for the HyperRail in that it can perform automated hyperspectral imaging of wide areas of land. However it exceeds the area requirement and costs much more than the price requirement. 
+The Scanalyzer system in particular matches all the requirements for the HyperRail in that it can perform automated hyperspectral imaging of wide areas of land. However it exceeds the area requirement and costs much more than the price requirement (~10's to 100s of thousands). 

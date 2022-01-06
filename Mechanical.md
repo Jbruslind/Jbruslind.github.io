@@ -5,7 +5,7 @@ title: Mechanical
 
 ## Overview 
 
-The Mechanical system was designed with modularity and easy assembly in mind. In the future, the system may be deployed in differing areas and require an increase or decrease in dimensions. The mechanical system must be designed to accommodate changes in dimensions to fit the users needs. In addition, the system will be used by users with little to no prior knowledge of how it was designed or any institutional knowledge of how it was originally assembled. The overall system was broken up into simple sub-assemblies to streamline the manufacturing and assembly process. 
+The Mechanical system was designed with modularity and easy assembly in mind. In the future, the system may be deployed in different areas/environment and may require an increase or decrease in dimensions.  In addition, the system will be used by users with little to no prior knowledge of how it was designed or any institutional knowledge of how it was originally assembled. With these aspects in mind, the mechanical system was created with defined "sub-assemblies" in mind so that each sub-assembly is easy to understand and assemble and can integrated into the full system seamlessly. This also allows for the option to upgrade specific sub-assemblies as needed if new ideas or designs are discovered (so long as the base needs are met). 
 
 ![Full System](https://raw.githubusercontent.com/Jbruslind/Jbruslind.github.io/main/assets/Mechanical_assets/FullSystem.png "Full System")
 
@@ -29,14 +29,18 @@ The X Rail Assembly utilizes the carriage shown above combined with a track and 
 
 ![Side Profile X Rail](https://raw.githubusercontent.com/Jbruslind/Jbruslind.github.io/main/assets/Mechanical_assets/Side_Rail_Side_Assembly.png)
 
-The assembly is supported by a foot assembly which can be added and distributed as necessary to support the system in different environments. 
+The assembly is supported by a foot subassembly which can be added and distributed as necessary to support the system in different environments. 
 
 ![Bottom Foot](https://raw.githubusercontent.com/Jbruslind/Jbruslind.github.io/main/assets/Mechanical_assets/BottomFoot.png)
 
-These feet allow for small height adjustments on either side through an M6 bolt embedded in the design.
+These feet allow for small height adjustments on either side through an M6 bolt embedded in the design which can be useful for outdoor use on rocky / dirt environments.
 
 The pulley attached to the motor can be adjusted using the right angle brackets and can be used to provide tension to the belt system (height adjustment shown below). The whole mechanism can then be moved using the dynamic belt rolling along the static belt 
 ![X Rail Movement](https://raw.githubusercontent.com/Jbruslind/Jbruslind.github.io/main/assets/Mechanical_assets/MotorAdjust_Movement.gif)
+
+The static belt layer is comprised of HTD 5mm, 25mm width polyurethane belt with steel cord reinforcement from [PolyBelt](https://shop.polybelt.com/20-5M-Open-End-Belt-Roll-Polyurethane-with-Steel-Cords-B20-5M-MPS.htm). Polyurethane was chosen for its durability and resistances to outdoor environments and steel cord was chosen for its price point. Kevlar reinforcement was another option which had a better tensile modulus (lower stretching over time) however this was determined to not be a huge factor since the static belt wouldn't have large segments stretching at the same time (the stress is localized to each individual point). At the same time, Kevlar has larger thermal fluctuations [^2] which could cause problems during outdoor use in freezing / extremely hot temperatures.
+
+This profile is standard across many suppliers but PolyBelt was chosen for their price point and US location. In addition they had a matching closed belt profile which was the right size (6mm) and length (635mm) for the dynamic belt system.
 
 ## Top Frame Subassembly
 
@@ -48,3 +52,4 @@ The pulley attached to the motor can be adjusted using the right angle brackets 
 
 ## References
 [^1]: Bell-Everman, Inc. (2016, October 19). New ServoBelt™ LoopTrack Linear Stage. Retrieved from https://www.bell-everman.com/products/linear-positioning/servobelt-linear-sbl
+[^2]: When to consider Kevlar reinforced belts for linear motion applications. (2019, July 05). Retrieved from https://www.linearmotiontips.com/when-to-consider-kevlar-reinforced-belts-for-linear-motion-applications
