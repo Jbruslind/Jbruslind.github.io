@@ -23,6 +23,12 @@ One of the big advantages to this style of mechanism is the ability to easily ex
 
 ## X Rail Assembly
 
+![X Rail](https://raw.githubusercontent.com/Jbruslind/Jbruslind.github.io/main/assets/Mechanical_assets/Side_Rail_Assembly.png)
+
+The X Rail Assembly utilizes the carriage shown above and implements it onto a track along with a vertical 4040 T-slot beam. The assembly cantilevers the weight of the upper track length (mounted to the vertical beam) with the motor + planetary gearbox assembly so that the mass is relatively distributed along the base. The assembly is supported by a foot assembly which can be distributed and adjusted as needed based on the environment.
+
+![X Rail Movement](https://raw.githubusercontent.com/Jbruslind/Jbruslind.github.io/main/assets/Mechanical_assets/MotorAdjust_Movement.gif)
+
 ## Top Frame Subassembly
 
 ## Y Carriage Subassembly
