@@ -44,25 +44,33 @@ Individual plates with delrin wheels are used for rotational motion and structur
 
 ## X Rail Assembly
 
-![X Rail](https://raw.githubusercontent.com/Jbruslind/Jbruslind.github.io/main/assets/Mechanical_assets/Side_Rail_Assembly.png) ![Side Profile X Rail](https://raw.githubusercontent.com/Jbruslind/Jbruslind.github.io/main/assets/Mechanical_assets/Side_Rail_Side_Assembly.png)
+![X Rail](assets/Mechanical_assets/Side_Rail_Assembly.png) ![Side Profile X Rail](assets/Mechanical_assets/Side_Rail_Side_Assembly.png)
 
 The X Rail Assembly utilizes the carriage shown above combined with a track and vertical 4040 T-slot beam. The track itself is made of 4060 aluminum which was chosen for symmetry and stability (increased mass provides a good counterweight). In order for the mechanism to be stable, the carriage base needs to equally distribute mass where the most mass comes from the vertical beam + upper axis and the motor + planetary gearbox. Therefore the X Rail Assembly cantilevers the 2 largest masses against each other so the center of gravity is relatively centered within the X carriage.
 
 
 The assembly is supported by a foot subassembly which can be added and distributed as necessary to support the system in different environments. 
 
-![Bottom Foot](https://raw.githubusercontent.com/Jbruslind/Jbruslind.github.io/main/assets/Mechanical_assets/BottomFoot.png)
+![Bottom Foot](assets/Mechanical_assets/BottomFoot.png)
 
 These feet allow for small height adjustments on either side through an M6 bolt embedded in the design which can be useful for outdoor use on rocky / dirt environments.
 
 The pulley attached to the motor can be adjusted using the right angle brackets and can be used to provide tension to the belt system (height adjustment shown below). The whole mechanism can then be moved using the dynamic belt rolling along the static belt 
-![X Rail Movement](https://raw.githubusercontent.com/Jbruslind/Jbruslind.github.io/main/assets/Mechanical_assets/MotorAdjust_Movement.gif)
+![X Rail Movement](assets/Mechanical_assets/MotorAdjust_Movement.gif)
 
 The static belt layer is comprised of HTD 5mm, 25mm width polyurethane belt with steel cord reinforcement from [PolyBelt](https://shop.polybelt.com/20-5M-Open-End-Belt-Roll-Polyurethane-with-Steel-Cords-B20-5M-MPS.htm). Polyurethane was chosen for its durability and resistances to outdoor environments and steel cord was chosen for its price point. Kevlar reinforcement was another option which had a better tensile modulus (lower stretching over time) however this was determined to not be a huge factor since the static belt wouldn't have large segments stretching at the same time (the stress is localized to each individual point). At the same time, Kevlar has larger thermal fluctuations [^2] which could cause problems during outdoor use in freezing / hot temperatures.
 
 This profile is standard across many suppliers but PolyBelt was chosen for their price point and US location. In addition they had a matching closed belt profile which was the right size (6mm) and length (635mm) for the dynamic belt system.
 
 ## Top Frame Subassembly
+
+The top frame subassembly was meant to serve as the Y-axis for the overall system and is comprised of a main 4040 T-slot extrusion paired with the same Bell-Everman style linear motion as the X-Carriages. 
+
+![](assets/Mechanical_assets/Top_Rail.png)
+
+The hollow channel within the T-slot extrusion serves as a pathway for wiring from one side of the system to the other, specifically for the motor and magnetic endstop wiring. These wires are static with respect to the gantry and so can be threaded through without any torsion later. 
+
+![](assets/Mechanical_assets/Top_Rail_Channel.png)
 
 ## Y Carriage Subassembly
 
