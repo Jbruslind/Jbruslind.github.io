@@ -83,9 +83,7 @@ The pinout diagram can be found on the schematic pdfs which are included within 
 
 Power Conversion is done using an integrated buck controller / switch, the TI  [LMZM23601V5SILR](https://www.ti.com/product/LMZM23601). This is a wide Vin range (4 -> 36V) buck converter which will step down the power input (expected 12 - 24V) to logic level (5V) for the Stepper Driver. Not much current is expected for this application, the estimated current draw by the driver for logic level is 10mA max: 
 
-![](assets/Electrical_assets/Tmc2209_supply.png)
-
-
+<img src="assets/Electrical_assets/Tmc2209_supply.png">
 
 ![](assets/Electrical_assets/Integrated_Driver_Top_Power.png)
 
